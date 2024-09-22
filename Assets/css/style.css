@@ -1,0 +1,91 @@
+/*
+
+    Theme: DevArtistry
+    Author: akthssn
+    Email: atik.hassan@outlook.com
+    Version: 1.0.0
+
+*/
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f5f5f5;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+  }
+
+  header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007acc;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin: 10px 0;
+  }
+
+  footer a {
+    color: #00ff00;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro {
+    margin-bottom: 20px;
+  }
+
+  .intro h2 {
+    margin-top: 0;
+  }
+
+  .theme-header{
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;  
+    line-height: 1;
+  }
+
+  .theme-header > img{
+    width: 70px;
+    border-radius: 100%;
+  }
+
+  .theme-header > h1{
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  /* 
+  
+    Versioning -> MAJOR.MINOR.PATCH
+        => 1.0.0 -> Initial Release (Major changes)
+        => 1.1.0 -> Adding New Features (Minor changes)
+        => 1.1.1 -> Bug/Issue fixing (Patch updates)
+        => 2.0.0 -> Breaking Changes (Major changes)
+  
+  */
