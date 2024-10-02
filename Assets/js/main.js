@@ -1,3 +1,13 @@
+/*
+
+    Theme: DevArtistry
+    Author: akthssn
+    Email: atik.hassan@outlook.com
+    Version: 1.0.0
+    License: GNU General Public License
+
+*/
+
 const Navigation = $("#navigation").children("a");
 const MainContent = $("#mainContent");
 const MenuTitle = $("#menuTitle");
