@@ -24,6 +24,7 @@ body {
     margin: 0 15px;
     text-decoration: none;
     color: #007acc;
+    transition: all 0.4s ease-in-out;
   }
 
   nav a:hover {
@@ -40,7 +41,14 @@ body {
   }
 
   footer a {
+    text-decoration: none;
     color: #00ff00;
+    transition: all 0.4s ease-in-out;
+  }
+
+  footer a:hover {
+    color: #000;
+    text-decoration: underline;
   }
 
   .container {
@@ -49,7 +57,8 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.175);
   }
 
   .intro {
@@ -73,10 +82,33 @@ body {
   .theme-header > img{
     width: 70px;
     border-radius: 100%;
+    -webkit-animation: scale-up-center 0.6s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate ;
+	        animation: scale-up-center 0.6s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate ;
+  }
+
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
 
   .theme-header > h1{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 20px;
   }
 
