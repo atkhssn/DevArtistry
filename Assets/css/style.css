@@ -149,12 +149,12 @@ body {
 
   footer a {
     text-decoration: none;
-    color: #00ff00;
+    color: #007acc;
     transition: all 0.3s ease;
   }
 
   footer a:hover {
-    color: #00ff009c;
+    color: #005fa3;
   }
 
 
